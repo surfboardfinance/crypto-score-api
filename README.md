@@ -22,11 +22,10 @@ A cryptocurrency API project that integrates CoinMarketCap and LunarCrush APIs t
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/crypto-score-api.git
-   cd crypto-score-api
-  ```
+```
+git clone https://github.com/your-username/crypto-score-api.git
+cd crypto-score-api
+```
 
 2. Install dependencies:
 ```
@@ -42,28 +41,25 @@ COINMARKETCAP_API_KEY=your_coinmarketcap_api_key
 LUNARCRUSH_API_KEY=your_lunarcrush_api_key
 BASE_API_URL=https://api.example.com
 JWT_SECRET=your_jwt_secret_key
-
 ```
+
 
 ## Usage
 1. To start the server in development mode, run:
 ```
 npm run dev
-
 ```
 
 
 2. To start the server in production mode, run:
 ```
 npm start
-
 ```
 
 
 3. Run the tests:
 ```
 npm test
-
 ```
 
 ## API Endpoints
